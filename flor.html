@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael para Flor: 26+1 Razones</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="book-container">
+        <div class="page cover-page" id="page-cover">
+            <h1 class="title">Michael para Flor</h1>
+            <p class="subtitle">esto lo vengo creando hace unos dias 
+                son 26 razones para estar con vos y 1 por la que no estarria</p>
+            <button onclick="goToPage(1)">apretame aca juerte y al medio</button>
+            <div class="decorations">🌸✨💖</div>
+        </div>
+
+        <div class="page reason-page hidden" id="page-1">
+            <div class="page-content">
+                <h2>Razón 1</h2>
+                <p>tu pelo lacio y hermoso</p>
+    
+            </div>
+            <button class="nav-button prev" onclick="goToPage(0)">Anterior</button>
+            <button class="nav-button next" onclick="goToPage(2)">Siguiente</button>
+        </div>
+
+        <div class="page final-page hidden" id="page-27">
+            <div class="page-content">
+                <h2 class="final-title">La única razón por la que no estaria con vos...</h2>
+                <p class="final-text">...es si un día esa necesidad de moverte constantemente y de seguir buscando la mejor versión de tu vida en otro lado, te impidiera elegir una base y una persona.</p>
+                <p class="final-message">Pero, te elijo a pesar de esa razón. Y por eso, de las 27, me quedo con las 26.</p>
+                <p class="signature">- Michael</p>
+            </div>
+            <button class="nav-button prev" onclick="goToPage(26)">Anterior</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
